@@ -14,7 +14,7 @@ config.js points to the sqlite db in the volume created by the volume container,
  
 ###startBlog.sh
 - change www.example.com to the URL that you will be using to access this blog (this allows the proxy container to auto-route your traffic to the correct port)
-- change the port (currently 49154) to whatever port you would like this blog accessible at on your host machine.  This will be "-p 80:80" if you aren't planning on using the proxy (to host multiple sites), or it can be "-p 80" if you would like docker to auto-assign the port.
+- change the port (currently 49154) to whatever port you would like this blog accessible at on your host machine.  This will be "-p 80:2368" if you aren't planning on using the proxy (to host multiple sites), or it can be "-p 2368" if you would like docker to auto-assign the port.
 - (optional) if the directory containing config.js and your content directory is not "~/blog/" then change "-v ~/blog" to match.
 - decide whether you want google pagespeed to run for this blog on the proxy container.
 - "-e PAGESPEED=1" means yes.
