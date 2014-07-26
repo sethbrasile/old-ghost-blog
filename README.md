@@ -30,10 +30,11 @@ If you want to add themes or css, anything in the "content" directory will overr
 from your docker-enabled command prompt, run:
 
 (the order doesn't matter)
->./startVol.sh
 
->./startBlog.sh
+`./startVol.sh`
 
->./startProxy.sh
+`./startBlog.sh`
+
+`./startProxy.sh`
 
 
