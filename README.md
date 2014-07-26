@@ -23,6 +23,10 @@ config.js points to the sqlite db in the volume created by the volume container,
 
 ##Instructions to start
 
+Make sure config.js (and if you want, content/)is in the directory specified in startBlog.sh, "-v ~/blog:/ghost-override"
+If you want to add themes or css, anything in the "content" directory will override ghost's default content directory (there are a couple themes already in there). Delete the content directory if you would like to use ghosts defaults.
+
+
 from your docker-enabled command prompt, run:
 
 (the order doesn't matter)
