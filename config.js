@@ -48,14 +48,14 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://sethbrasile.geekedout.biz',
+        url: 'http://www.example.com',
         mail: {
 		transport: "SMTP",
 		options: {
-			host: 'mail.geekedout.biz',
+			host: 'mail.example.com',
 			auth: {
-				user: 'seth@geekedout.biz',
-				pass: ''
+				user: 'imaguy@example.com',
+				pass: 'emailpassword'
 			}
 		}
 	},
