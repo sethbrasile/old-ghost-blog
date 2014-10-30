@@ -1,1 +1,1 @@
-docker run -v /data -name blogVol stackbrew/busybox
+docker run -v /data --name blogVol stackbrew/busybox
